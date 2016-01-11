@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F25B06AF6065778C62A2E8A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0389BB6FBA4CF92026D42DBC /* libPods.a */; };
 		9E680FCA1C36A0F200720C5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E680FC91C36A0F200720C5B /* main.m */; };
 		9E680FCD1C36A0F200720C5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E680FCC1C36A0F200720C5B /* AppDelegate.m */; };
-		9E680FD01C36A0F200720C5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E680FCF1C36A0F200720C5B /* ViewController.m */; };
-		9E680FD31C36A0F200720C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E680FD11C36A0F200720C5B /* Main.storyboard */; };
 		9E680FD51C36A0F200720C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E680FD41C36A0F200720C5B /* Assets.xcassets */; };
 		9E680FD81C36A0F200720C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E680FD61C36A0F200720C5B /* LaunchScreen.storyboard */; };
 		9E680FE31C36A0F200720C5B /* OCweiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E680FE21C36A0F200720C5B /* OCweiboTests.m */; };
-		9E680FEE1C36A0F200720C5B /* OCweiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E680FED1C36A0F200720C5B /* OCweiboUITests.m */; };
+		9E68112F1C36C7EB00720C5B /* MaintabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6811261C36C7EB00720C5B /* MaintabBarViewController.m */; };
+		9E6811301C36C7EB00720C5B /* visitorTaBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6811291C36C7EB00720C5B /* visitorTaBarController.m */; };
+		9E6811311C36C7EB00720C5B /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E68112C1C36C7EB00720C5B /* MessageTableViewController.m */; };
+		9E6811341C36C81100720C5B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6811331C36C81100720C5B /* ProfileViewController.m */; };
+		9E6811381C36C84000720C5B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6811371C36C84000720C5B /* HomeViewController.m */; };
+		9E68113C1C36C93200720C5B /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E68113B1C36C93200720C5B /* DiscoverViewController.m */; };
+		9E6F016C1C3A376E00ACBAA1 /* OAUthsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6F016B1C3A376E00ACBAA1 /* OAUthsViewController.m */; };
+		9E929FE81C3E50FB00E53773 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E929FE71C3E50FB00E53773 /* NetworkTool.m */; };
+		9E929FEB1C3E5C6F00E53773 /* sharedTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E929FEA1C3E5C6F00E53773 /* sharedTools.m */; };
+		9EF7C6061C375716003364C0 /* visitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7C6051C375716003364C0 /* visitorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +43,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9E680FC51C36A0F200720C5B /* OCweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCweibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0389BB6FBA4CF92026D42DBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		401B95B6B8800477383A2639 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		82C2E5A66E627F81122492EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9E680FC91C36A0F200720C5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E680FCB1C36A0F200720C5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E680FCC1C36A0F200720C5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E680FCE1C36A0F200720C5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E680FCF1C36A0F200720C5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E680FD21C36A0F200720C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E680FD41C36A0F200720C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E680FD71C36A0F200720C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E680FD91C36A0F200720C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E680FDE1C36A0F200720C5B /* OCweiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCweiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E680FE21C36A0F200720C5B /* OCweiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCweiboTests.m; sourceTree = "<group>"; };
 		9E680FE41C36A0F200720C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E680FE91C36A0F200720C5B /* OCweiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCweiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E680FED1C36A0F200720C5B /* OCweiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCweiboUITests.m; sourceTree = "<group>"; };
-		9E680FEF1C36A0F200720C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6811251C36C7EB00720C5B /* MaintabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaintabBarViewController.h; sourceTree = "<group>"; };
+		9E6811261C36C7EB00720C5B /* MaintabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaintabBarViewController.m; sourceTree = "<group>"; };
+		9E6811281C36C7EB00720C5B /* visitorTaBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitorTaBarController.h; sourceTree = "<group>"; };
+		9E6811291C36C7EB00720C5B /* visitorTaBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visitorTaBarController.m; sourceTree = "<group>"; };
+		9E68112B1C36C7EB00720C5B /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		9E68112C1C36C7EB00720C5B /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		9E6811321C36C81100720C5B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		9E6811331C36C81100720C5B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		9E6811361C36C84000720C5B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9E6811371C36C84000720C5B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9E68113A1C36C93200720C5B /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		9E68113B1C36C93200720C5B /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		9E6F016A1C3A376E00ACBAA1 /* OAUthsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAUthsViewController.h; sourceTree = "<group>"; };
+		9E6F016B1C3A376E00ACBAA1 /* OAUthsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAUthsViewController.m; sourceTree = "<group>"; };
+		9E929FE61C3E50FB00E53773 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		9E929FE71C3E50FB00E53773 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		9E929FE91C3E5C6F00E53773 /* sharedTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedTools.h; sourceTree = "<group>"; };
+		9E929FEA1C3E5C6F00E53773 /* sharedTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedTools.m; sourceTree = "<group>"; };
+		9EA40E4D1C39509100D56517 /* OCweibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCweibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA40E4E1C39509100D56517 /* OCweiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCweiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA40E4F1C39509100D56517 /* OCweiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCweiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF7C6041C375716003364C0 /* visitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visitorView.h; sourceTree = "<group>"; };
+		9EF7C6051C375716003364C0 /* visitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = visitorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F25B06AF6065778C62A2E8A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,34 +105,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42045846D16B4ADFE4205385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				401B95B6B8800477383A2639 /* Pods.debug.xcconfig */,
+				82C2E5A66E627F81122492EE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A5A8190D74C40C763258E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0389BB6FBA4CF92026D42DBC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E680FBC1C36A0F100720C5B = {
 			isa = PBXGroup;
 			children = (
 				9E680FC71C36A0F200720C5B /* OCweibo */,
 				9E680FE11C36A0F200720C5B /* OCweiboTests */,
-				9E680FEC1C36A0F200720C5B /* OCweiboUITests */,
-				9E680FC61C36A0F200720C5B /* Products */,
+				42045846D16B4ADFE4205385 /* Pods */,
+				7A5A8190D74C40C763258E5B /* Frameworks */,
+				9EA40E4D1C39509100D56517 /* OCweibo.app */,
+				9EA40E4E1C39509100D56517 /* OCweiboTests.xctest */,
+				9EA40E4F1C39509100D56517 /* OCweiboUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		9E680FC61C36A0F200720C5B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9E680FC51C36A0F200720C5B /* OCweibo.app */,
-				9E680FDE1C36A0F200720C5B /* OCweiboTests.xctest */,
-				9E680FE91C36A0F200720C5B /* OCweiboUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9E680FC71C36A0F200720C5B /* OCweibo */ = {
 			isa = PBXGroup;
 			children = (
+				9E6811211C36C7EB00720C5B /* Classes */,
 				9E680FCB1C36A0F200720C5B /* AppDelegate.h */,
 				9E680FCC1C36A0F200720C5B /* AppDelegate.m */,
-				9E680FCE1C36A0F200720C5B /* ViewController.h */,
-				9E680FCF1C36A0F200720C5B /* ViewController.m */,
-				9E680FD11C36A0F200720C5B /* Main.storyboard */,
 				9E680FD41C36A0F200720C5B /* Assets.xcassets */,
 				9E680FD61C36A0F200720C5B /* LaunchScreen.storyboard */,
 				9E680FD91C36A0F200720C5B /* Info.plist */,
@@ -131,13 +166,119 @@
 			path = OCweiboTests;
 			sourceTree = "<group>";
 		};
-		9E680FEC1C36A0F200720C5B /* OCweiboUITests */ = {
+		9E6811211C36C7EB00720C5B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9E680FED1C36A0F200720C5B /* OCweiboUITests.m */,
-				9E680FEF1C36A0F200720C5B /* Info.plist */,
+				9E6811221C36C7EB00720C5B /* model */,
+				9E6811231C36C7EB00720C5B /* view */,
+				9E68112E1C36C7EB00720C5B /* viewmodel */,
 			);
-			path = OCweiboUITests;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E6811221C36C7EB00720C5B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9E6811231C36C7EB00720C5B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9E929FE51C3E50DB00E53773 /* TOOL */,
+				9E6F01691C3A375B00ACBAA1 /* OAUth */,
+				9E6811391C36C91C00720C5B /* Discover */,
+				9E6811351C36C83400720C5B /* Home */,
+				9E6811241C36C7EB00720C5B /* Main */,
+				9E68112A1C36C7EB00720C5B /* Message */,
+				9E68112D1C36C7EB00720C5B /* Profile */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9E6811241C36C7EB00720C5B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9E6811251C36C7EB00720C5B /* MaintabBarViewController.h */,
+				9E6811261C36C7EB00720C5B /* MaintabBarViewController.m */,
+				9E6811271C36C7EB00720C5B /* Visitor */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9E6811271C36C7EB00720C5B /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				9E6811281C36C7EB00720C5B /* visitorTaBarController.h */,
+				9E6811291C36C7EB00720C5B /* visitorTaBarController.m */,
+				9EF7C6041C375716003364C0 /* visitorView.h */,
+				9EF7C6051C375716003364C0 /* visitorView.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		9E68112A1C36C7EB00720C5B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9E68112B1C36C7EB00720C5B /* MessageTableViewController.h */,
+				9E68112C1C36C7EB00720C5B /* MessageTableViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		9E68112D1C36C7EB00720C5B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9E6811321C36C81100720C5B /* ProfileViewController.h */,
+				9E6811331C36C81100720C5B /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9E68112E1C36C7EB00720C5B /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		9E6811351C36C83400720C5B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9E6811361C36C84000720C5B /* HomeViewController.h */,
+				9E6811371C36C84000720C5B /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9E6811391C36C91C00720C5B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9E68113A1C36C93200720C5B /* DiscoverViewController.h */,
+				9E68113B1C36C93200720C5B /* DiscoverViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		9E6F01691C3A375B00ACBAA1 /* OAUth */ = {
+			isa = PBXGroup;
+			children = (
+				9E6F016A1C3A376E00ACBAA1 /* OAUthsViewController.h */,
+				9E6F016B1C3A376E00ACBAA1 /* OAUthsViewController.m */,
+			);
+			path = OAUth;
+			sourceTree = "<group>";
+		};
+		9E929FE51C3E50DB00E53773 /* TOOL */ = {
+			isa = PBXGroup;
+			children = (
+				9E929FE61C3E50FB00E53773 /* NetworkTool.h */,
+				9E929FE71C3E50FB00E53773 /* NetworkTool.m */,
+				9E929FE91C3E5C6F00E53773 /* sharedTools.h */,
+				9E929FEA1C3E5C6F00E53773 /* sharedTools.m */,
+			);
+			path = TOOL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E680FF21C36A0F200720C5B /* Build configuration list for PBXNativeTarget "OCweibo" */;
 			buildPhases = (
+				6922DA67294083E218407409 /* Check Pods Manifest.lock */,
 				9E680FC11C36A0F200720C5B /* Sources */,
 				9E680FC21C36A0F200720C5B /* Frameworks */,
 				9E680FC31C36A0F200720C5B /* Resources */,
+				4E521C7613D47EF561EC6F91 /* Embed Pods Frameworks */,
+				1E69BA196A368EFF67C7EABE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,7 +301,7 @@
 			);
 			name = OCweibo;
 			productName = OCweibo;
-			productReference = 9E680FC51C36A0F200720C5B /* OCweibo.app */;
+			productReference = 9EA40E4D1C39509100D56517 /* OCweibo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9E680FDD1C36A0F200720C5B /* OCweiboTests */ = {
@@ -175,7 +319,7 @@
 			);
 			name = OCweiboTests;
 			productName = OCweiboTests;
-			productReference = 9E680FDE1C36A0F200720C5B /* OCweiboTests.xctest */;
+			productReference = 9EA40E4E1C39509100D56517 /* OCweiboTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9E680FE81C36A0F200720C5B /* OCweiboUITests */ = {
@@ -193,7 +337,7 @@
 			);
 			name = OCweiboUITests;
 			productName = OCweiboUITests;
-			productReference = 9E680FE91C36A0F200720C5B /* OCweiboUITests.xctest */;
+			productReference = 9EA40E4F1C39509100D56517 /* OCweiboUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +374,7 @@
 				Base,
 			);
 			mainGroup = 9E680FBC1C36A0F100720C5B;
-			productRefGroup = 9E680FC61C36A0F200720C5B /* Products */;
+			productRefGroup = 9E680FBC1C36A0F100720C5B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -248,7 +392,6 @@
 			files = (
 				9E680FD81C36A0F200720C5B /* LaunchScreen.storyboard in Resources */,
 				9E680FD51C36A0F200720C5B /* Assets.xcassets in Resources */,
-				9E680FD31C36A0F200720C5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +411,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E69BA196A368EFF67C7EABE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E521C7613D47EF561EC6F91 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6922DA67294083E218407409 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E680FC11C36A0F200720C5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E680FD01C36A0F200720C5B /* ViewController.m in Sources */,
+				9E6811311C36C7EB00720C5B /* MessageTableViewController.m in Sources */,
+				9E68113C1C36C93200720C5B /* DiscoverViewController.m in Sources */,
+				9E68112F1C36C7EB00720C5B /* MaintabBarViewController.m in Sources */,
+				9E6811301C36C7EB00720C5B /* visitorTaBarController.m in Sources */,
 				9E680FCD1C36A0F200720C5B /* AppDelegate.m in Sources */,
+				9E6F016C1C3A376E00ACBAA1 /* OAUthsViewController.m in Sources */,
+				9E6811341C36C81100720C5B /* ProfileViewController.m in Sources */,
+				9E929FE81C3E50FB00E53773 /* NetworkTool.m in Sources */,
+				9E929FEB1C3E5C6F00E53773 /* sharedTools.m in Sources */,
+				9EF7C6061C375716003364C0 /* visitorView.m in Sources */,
+				9E6811381C36C84000720C5B /* HomeViewController.m in Sources */,
 				9E680FCA1C36A0F200720C5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E680FEE1C36A0F200720C5B /* OCweiboUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +510,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9E680FD11C36A0F200720C5B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E680FD21C36A0F200720C5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E680FD61C36A0F200720C5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,8 +605,10 @@
 		};
 		9E680FF31C36A0F200720C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401B95B6B8800477383A2639 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = OCweibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jusive.OCweibo;
@@ -425,8 +618,10 @@
 		};
 		9E680FF41C36A0F200720C5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C2E5A66E627F81122492EE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = OCweibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jusive.OCweibo;
@@ -501,6 +696,7 @@
 				9E680FF41C36A0F200720C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E680FF51C36A0F200720C5B /* Build configuration list for PBXNativeTarget "OCweiboTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +705,7 @@
 				9E680FF71C36A0F200720C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E680FF81C36A0F200720C5B /* Build configuration list for PBXNativeTarget "OCweiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +714,7 @@
 				9E680FFA1C36A0F200720C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
